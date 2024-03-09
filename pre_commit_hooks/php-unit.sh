@@ -28,7 +28,7 @@ source $DIR/helpers/locate.sh
 
 echo -e "${bldwht}Running command ${txtgrn} ${exec_command}"
 command_result=`eval $exec_command`
-if [[ $command_result =~ FAILURES ]]
+if [[ $command_result =~ (ERRORS|FAILURES) ]]
 then
     hr
     echo "Failures detected in unit tests..."
