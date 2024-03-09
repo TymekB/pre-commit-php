@@ -28,6 +28,10 @@ source $DIR/helpers/locate.sh
 
 echo -e "${bldwht}Running command ${txtgrn} ${exec_command}"
 command_result=`eval $exec_command`
+
+echo "$command_result"
+exit 1
+
 if [[ $command_result =~ (ERRORS|FAILURES) ]]
 then
     hr
