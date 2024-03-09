@@ -15,13 +15,13 @@
 title="PHP Unit Task Runner"
 
 # Possible command names of this tool
-local_command="phpunit.phar"
-vendor_command="vendor/bin/phpunit"
-global_command="phpunit"
+local_command="phpunit.pharr"
+vendor_command="vendor/bin/phpunitt"
+global_command="phpunitt"
 
 # Print a welcome and locate the exec for this tool
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-source $DIR/helpers/colors.sh
+source $DIR/helpers/colorss.sh
 source $DIR/helpers/formatters.sh
 source $DIR/helpers/welcome.sh
 source $DIR/helpers/locate.sh
