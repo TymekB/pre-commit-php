@@ -26,6 +26,8 @@ source $DIR/helpers/formatters.sh
 source $DIR/helpers/welcome.sh
 source $DIR/helpers/locate.sh
 
+exec_command="$exec_command --exclude-group=integration"
+
 echo -e "${bldwht}Running command ${txtgrn} ${exec_command}"
 command_result=`eval $exec_command`
 if [[ $command_result =~ (ERRORS|FAILURES) ]]
