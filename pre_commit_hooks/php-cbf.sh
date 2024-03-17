@@ -14,7 +14,7 @@
 # - None
 
 # Plugin title
-title="PHP Code Beautifier and Fixer"
+title="PHP CBF"
 
 # Possible command names of this tool
 local_command="phpcbf.phar"
