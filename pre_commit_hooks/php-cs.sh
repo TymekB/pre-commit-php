@@ -14,7 +14,7 @@
 # - None
 
 # Plugin title
-title="PHP Codesniffer"
+title="PHP CS"
 
 # Possible command names of this tool
 local_command="phpcs.phar"
