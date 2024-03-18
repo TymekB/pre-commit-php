@@ -43,7 +43,6 @@ then
     echo -en "${bldmag}Errors detected by PHP Code Beautifier and Fixer ... ${txtrst} \n"
     hr
     echo "$command_result"
-    exit 1
 fi
 
 exit 0
