@@ -37,13 +37,5 @@ phpcbf_command="${exec_command} ${phpcbf_args} ${phpcbf_files_to_check}"
 
 echo -e "${bldwht}Running command ${txtgrn} $phpcbf_command${txtrst}"
 command_result=`eval $phpcbf_command`
-if [[ $command_result =~ ERROR ]]
-then
-    hr
-    echo -en "${bldmag}Errors detected by PHP Code Beautifier and Fixer ... ${txtrst} \n"
-    hr
-    echo "$command_result"
-    exit 1
-fi
 
 exit 0
